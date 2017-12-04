@@ -1,0 +1,45 @@
+html {
+  height:100%;
+  width:100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+body {
+  position:absolute;
+  background-color: #ecd7ef;
+}
+h1 {
+  font-family: "book antiqua";
+  font-size: 60px;
+}
+
+.borda{
+  border: 1px solid black;
+  padding-bottom: 10px;
+}
+.quadrado {
+  display: inline-block;
+  background-color: #F08080;
+  height: 100px;
+  width: 100px;
+  transform: rotate(45deg);
+  margin-bottom: 20px;
+}
+.triangulo {
+  display: inline-block;
+  border-top: 0px transparent solid;
+  border-right: 50px transparent solid;
+  border-left: 50px transparent solid;
+  border-bottom: 100px blue solid;
+  width: 0px;
+  height: 0px;
+  transform: rotate(180deg);
+  animation: rubberBand;
+}
+.circulo {
+  display: inline-block;
+  background-color: #7CFC00;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
